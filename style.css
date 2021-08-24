@@ -1,0 +1,19 @@
+.paper {
+    background-color: grey;
+    padding: 10px;
+    width: 300px;
+}
+
+.tag {
+    color: white;
+    background-color: red;
+    height: 200px;
+    display: grid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.name {
+    background-color: white;
+    color: black;
+}
