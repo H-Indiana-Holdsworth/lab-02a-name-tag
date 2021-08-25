@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
 .paper {
     background-color: grey;
     padding: 10px;
@@ -11,9 +13,16 @@
     display: grid;
     border-radius: 10px;
     text-align: center;
+    grid-template-rows: 15% 30% 40% 10%;
 }
+
 
 .name {
     background-color: white;
     color: black;
+    text-align: center;
+    padding-bottom: 5px;
+    font-family: 'Tangerine', cursive;
+    font-size: 30px;
+    font-weight: bold;
 }
