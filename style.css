@@ -1,4 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Molle:ital@1&family=Montserrat&display=swap');
+
+body {
+    background-color: blanchedalmond;
+}
+
+header {
+    text-align: center;
+    font-family: 'Molle', cursive;
+    color: red;
+}
 
 .paper {
     background-color: grey;
@@ -6,7 +17,7 @@
     width: 300px;
 }
 
-.tag {
+.intro {
     color: white;
     background-color: red;
     height: 200px;
@@ -16,6 +27,9 @@
     grid-template-rows: 15% 30% 40% 10%;
 }
 
+.paper {
+    margin-left: 430px;
+}
 
 .name {
     background-color: white;
@@ -26,3 +40,41 @@
     font-size: 30px;
     font-weight: bold;
 }
+
+.side-nav {
+    height: auto;
+    width: 160px;
+    background-color: grey;
+    position: fixed;
+}
+
+.side-nav a {
+    padding: 6px 8px 6px 16px;
+    font-size: 15px;
+    text-align: left;
+    display: block;
+    color: white;
+}
+
+.side-nav a:hover {
+    color: red;
+    font-size: 17px;
+}
+
+.footer {
+    color:white;
+    text-align: center;
+    width: 100%;
+    background-color: grey;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}
+
+
+
+
+
+
+
