@@ -28,7 +28,9 @@ header {
 }
 
 .paper {
-    margin-left: 430px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
 }
 
 .name {
@@ -39,6 +41,7 @@ header {
     font-family: 'Tangerine', cursive;
     font-size: 30px;
     font-weight: bold;
+    align-items: center;
 }
 
 .side-nav {
@@ -70,5 +73,13 @@ header {
     bottom: 0;
     left: 0;
     
+}
+
+.name-bar {
+    color: red;
+    font-family: 'Tangerine', cursive;
+    font-size: 30px;
+    text-align: center;
+    padding 5px;
 }
 
